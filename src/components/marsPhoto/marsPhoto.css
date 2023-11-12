@@ -1,0 +1,61 @@
+@media screen and (min-width: 1000px) {
+    .mars-photo{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        margin-bottom: 50px;
+    }
+    .mars-photo h2{
+        font-size: 20px;
+        color: white;
+    }
+    .images-template{
+        width: 90%;
+        height: 55vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        overflow-y: scroll;
+    }
+    .mars-image{
+        width: 250px;
+        height: auto;
+        border-radius: 15px;
+    }
+    
+}
+
+@media screen and (max-width: 1000px) {
+    .mars-photo{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+    .mars-photo h2{
+        font-size: 15px;
+        color: white;
+        text-align: center;
+    }
+    .images-template{
+        width: 95%;
+        height: 55vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        overflow-y: scroll;
+    }
+    .mars-image{
+        width: 150px;
+        height: auto;
+        border-radius: 15px;
+    }
+    
+}

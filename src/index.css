@@ -1,0 +1,23 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  background-color: #1C1E26;
+
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #292C37;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-track {
+  background-color: #393C47;
+  border-radius: 5px;
+}

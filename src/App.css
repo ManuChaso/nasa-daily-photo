@@ -1,0 +1,230 @@
+
+@keyframes loading {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .app{
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .title{
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        font-size: 25px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .title img{
+        width: 50px;
+        height: 50px;
+    }
+    .filter{
+        width: 500px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .mode-selector{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        gap: 3px;
+    }
+    .selected-mode{
+        width: 130px;
+        height: 30px;
+        border: none;
+        border-radius: 3px;
+        background-color: #393C47;
+        color: white;
+    }
+    .unselected-mode{
+        width: 130px;
+        height: 30px;
+        border: none;
+        border-radius: 3px;
+        background-color: #292C37;
+        color: white;
+    }.unselected-mode:hover{
+        background-color: #393C47;
+    }
+    .date-filter{
+        display: flex;
+    }
+    .input-date{
+        width: 225px;
+        height: 25px;
+        padding: 5px;
+        background-color: #292C37;
+        border: none;
+        border-bottom-left-radius: 3px;
+        border-top-left-radius: 3px;
+        color: white;
+        text-align: center;
+        font-size: 15px;
+    }
+    .input-date:focus{
+        outline: none;
+    }
+    .input-date:hover{
+        background-color: #393C47;
+    }
+    .search{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 35px;
+        height: 35px;
+        padding: 5px;
+        border: none;
+        border-bottom-right-radius: 3px;
+        border-top-right-radius: 3px;
+        background-color: #292C37;
+    }
+    .search img{
+        width: 20px;
+        height: 20px;
+    }
+    .search:hover{
+        background-color: #393C47;
+    }
+    
+    .loading-component{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+    }
+    .loading-icon{
+        width: 100px;
+        animation: loading 2s infinite;
+        
+    }
+    
+}
+
+@media screen and (max-width: 1000px) {
+    .app{
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .title{
+        font-size: 25px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .title img{
+        width: 50px;
+        height: 50px;
+    }
+    .filter{
+        width: 100%;
+        height: 130px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .mode-selector{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        gap: 3px;
+    }
+    .selected-mode{
+        width: 130px;
+        height: 30px;
+        border: none;
+        border-radius: 3px;
+        background-color: #393C47;
+        color: white;
+    }
+    .unselected-mode{
+        width: 130px;
+        height: 30px;
+        border: none;
+        border-radius: 3px;
+        background-color: #292C37;
+        color: white;
+    }.unselected-mode:hover{
+        background-color: #393C47;
+    }
+    .date-filter{
+        display: flex;
+    }
+    .input-date{
+        width: 225px;
+        height: 25px;
+        padding: 5px;
+        background-color: #292C37;
+        border: none;
+        border-bottom-left-radius: 3px;
+        border-top-left-radius: 3px;
+        color: white;
+        text-align: center;
+        font-size: 15px;
+    }
+    .input-date:focus{
+        outline: none;
+    }
+    .input-date:hover{
+        background-color: #393C47;
+    }
+    .search{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 35px;
+        height: 35px;
+        padding: 5px;
+        border: none;
+        border-bottom-right-radius: 3px;
+        border-top-right-radius: 3px;
+        background-color: #292C37;
+    }
+    .search img{
+        width: 20px;
+        height: 20px;
+    }
+    .search:hover{
+        background-color: #393C47;
+    }
+    
+    .loading-component{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+    }
+    .loading-icon{
+        width: 100px;
+        animation: loading 2s infinite;
+        
+    }
+    
+}
