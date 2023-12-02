@@ -11,13 +11,8 @@ import LoadingIcon from './assets/icons/galaxia.png';
 function App() {
   // Establece la api a la que solicitar la imagen. false: daily photo, true: Mars rover photo
   const [photoMode, setPhotoMode] = useState(false);
-  const [inputDate, setInputDate] = useState(false);
+  const [inputDate, setInputDate] = useState();
   const [date, setDate] = useState()
-
-  const fetchDataByDate = async () => {
-    setDate(inputDate);
-  }
-
 
   const LoadingComponent = () => {
     return(
@@ -37,7 +32,7 @@ function App() {
         </div>
         <div className='date-filter'>
           <input onChange={e => setInputDate(e.target.value)} type="date" className='input-date'/>
-          <button onClick={fetchDataByDate} className='search'><img src={SearchIcon} alt="Icono de buscar" /></button>
+          <button onClick={() => setDate(inputDate)} className='search'><img src={SearchIcon} alt="Icono de buscar" /></button>
         </div>
       </div>
       {photoMode ? <MarsPhoto loading={<LoadingComponent/>} date={date}/> : <DailyPhoto loading={<LoadingComponent/>} date={date}/>}
