@@ -50,7 +50,7 @@
         height: 30px;
         border: none;
         border-radius: 3px;
-        background-color: #393C47;
+        background-color: var(--darker-bg);
         color: white;
     }
     .unselected-mode{
@@ -58,10 +58,10 @@
         height: 30px;
         border: none;
         border-radius: 3px;
-        background-color: #292C37;
+        background-color: var(--dark-bg);
         color: white;
     }.unselected-mode:hover{
-        background-color: #393C47;
+        background-color: var(--darker-bg);
     }
     .date-filter{
         display: flex;
@@ -70,7 +70,7 @@
         width: 225px;
         height: 25px;
         padding: 5px;
-        background-color: #292C37;
+        background-color: var(--dark-bg);
         border: none;
         border-bottom-left-radius: 3px;
         border-top-left-radius: 3px;
@@ -82,7 +82,7 @@
         outline: none;
     }
     .input-date:hover{
-        background-color: #393C47;
+        background-color: var(--darker-bg);
     }
     .search{
         display: flex;
@@ -94,14 +94,14 @@
         border: none;
         border-bottom-right-radius: 3px;
         border-top-right-radius: 3px;
-        background-color: #292C37;
+        background-color: var(--dark-bg);
     }
     .search img{
         width: 20px;
         height: 20px;
     }
     .search:hover{
-        background-color: #393C47;
+        background-color: var(--darker-bg);
     }
     
     .loading-component{
@@ -159,7 +159,7 @@
         height: 30px;
         border: none;
         border-radius: 3px;
-        background-color: #393C47;
+        background-color: var(--darker-bg);
         color: white;
     }
     .unselected-mode{
@@ -167,10 +167,10 @@
         height: 30px;
         border: none;
         border-radius: 3px;
-        background-color: #292C37;
+        background-color: var(--dark-bg);
         color: white;
     }.unselected-mode:hover{
-        background-color: #393C47;
+        background-color: var(--darker-bg);
     }
     .date-filter{
         display: flex;
@@ -179,7 +179,7 @@
         width: 225px;
         height: 25px;
         padding: 5px;
-        background-color: #292C37;
+        background-color: var(--dark-bg);
         border: none;
         border-bottom-left-radius: 3px;
         border-top-left-radius: 3px;
@@ -191,7 +191,7 @@
         outline: none;
     }
     .input-date:hover{
-        background-color: #393C47;
+        background-color: var(--darker-bg);
     }
     .search{
         display: flex;
@@ -203,14 +203,14 @@
         border: none;
         border-bottom-right-radius: 3px;
         border-top-right-radius: 3px;
-        background-color: #292C37;
+        background-color: var(--dark-bg);
     }
     .search img{
         width: 20px;
         height: 20px;
     }
     .search:hover{
-        background-color: #393C47;
+        background-color: var(--darker-bg);
     }
     
     .loading-component{
