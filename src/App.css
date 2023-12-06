@@ -51,7 +51,7 @@
         border: none;
         border-radius: 3px;
         background-color: var(--darker-bg);
-        color: white;
+        color: var(--main-color);
     }
     .unselected-mode{
         width: 130px;
